@@ -4,8 +4,6 @@
 */
 
 function getBrowser() {
-	var nv = navigator.vendor,
-		nan = navigator.appName;
 	if (/Google Inc./.test(navigator.vendor)) {
 		return 'Google Chrome';
 	} else if (/Apple Computer/.test(navigator.appName)) {
