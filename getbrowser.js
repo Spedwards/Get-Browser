@@ -20,7 +20,7 @@ function getBrowser() {
 		return 'K-Meleon';
 	} else if (/Maxthon Asia Ltd./.test(navigator.vendor)) {
 		return 'Maxthon';
-	} else if (/PaleMooon/.test(navigator.userAgent)) {
+	} else if (/PaleMoon/.test(navigator.userAgent)) {
 		return 'Pale Moon';
 	} else if (/SeaMonkey/.test(navigator.userAgent)) {
 		return 'SeaMonkey';
