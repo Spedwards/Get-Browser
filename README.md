@@ -1,4 +1,4 @@
-<h1>Get-Browser</h1>
+<h1>Get Browser</h1>
 
 A Javascript method of obtaining the user browser from 10 different possibilities!
 
