@@ -6,15 +6,25 @@
 function getBrowser() {
 	var nv = navigator.vendor,
 		nan = navigator.appName;
-	if (nv == 'Google Inc.') {
+	if (/Google Inc./.test(navigator.vendor)) {
 		return 'Google Chrome';
-	} else if (nv == 'Apple Computer') {
+	} else if (/Apple Computer/.test(navigator.appName)) {
 		return 'Safari';
-	} else if (nv == 'Opera Software ASA') {
+	} else if (/Opera Software ASA/.test(navigator.vendor)) {
 		return 'Opera';
-	} else if (nan == 'Microsoft Internet Explorer') {
+	} else if (/Microsoft Internet Explorer/.test(navigator.appName)) {
 		return 'Microsoft Internet Explorer';
-	} else if (/Firefox/.test(navigator.userAgent)) {
+	} else if (/Firefox/.test(navigator.userAgent) && !/PaleMoon/.test(navigator.userAgent) && !/SeaMonkey/.test(navigator.userAgent)) {
 		return 'Mozilla Firefox';
+	} else if (/K-Meleon/.test(navigator.vendor)) {
+		return 'K-Meleon';
+	} else if (/Maxthon Asia Ltd./.test(navigator.vendor)) {
+		return 'Maxthon';
+	} else if (/PaleMooon/.test(navigator.userAgent)) {
+		return 'Pale Moon';
+	} else if (/SeaMonkey/.test(navigator.userAgent)) {
+		return 'SeaMonkey';
+	} else if (/Arora/.test(navigator.userAgent)) {
+		return 'Arora';
 	}
 }
