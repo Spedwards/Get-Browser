@@ -14,7 +14,7 @@ The return values are as follows:
 <strong>Mozilla Firefox:</strong> "Mozilla Firefox"<br />
 <strong>Internet Explorer:</strong> "Microsoft Internet Explorer"<br />
 <strong>Opera:</strong> "Opera"<br />
-<strong>Safaria:</strong> "Safari"<br />
+<strong>Safari:</strong> "Safari"<br />
 <strong>K-Meleion:</strong> "K-Meleon"<br />
 <strong>Maxthon:</strong> "Maxthon"<br />
 <strong>Pale Moon:</strong> "Pale Moon"<br />
