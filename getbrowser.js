@@ -6,7 +6,7 @@
 function getBrowser() {
 	if (/Google Inc./.test(navigator.vendor)) {
 		return 'Google Chrome';
-	} else if (/Apple Computer/.test(navigator.appName)) {
+	} else if (/Safari/.test(navigator.userAgent)) {
 		return 'Safari';
 	} else if (/Opera Software ASA/.test(navigator.vendor)) {
 		return 'Opera';
@@ -24,5 +24,7 @@ function getBrowser() {
 		return 'SeaMonkey';
 	} else if (/Arora/.test(navigator.userAgent)) {
 		return 'Arora';
+	} else {
+		return 'an unknown browser';
 	}
 }
