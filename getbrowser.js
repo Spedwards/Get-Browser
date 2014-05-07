@@ -6,7 +6,7 @@
 function getBrowser() {
 	if (/Google Inc./.test(navigator.vendor)) {
 		return 'Google Chrome';
-	} else if (/Safari/.test(navigator.userAgent)) {
+	} else if (/Safari/.test(navigator.userAgent) && !/Opera Software ASA/.test(navigator.vendor)) {
 		return 'Safari';
 	} else if (/Opera Software ASA/.test(navigator.vendor)) {
 		return 'Opera';
