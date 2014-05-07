@@ -8,7 +8,7 @@ function getBrowser() {
 		return 'Google Chrome';
 	} else if (/Safari/.test(navigator.userAgent) && !/Opera Software ASA/.test(navigator.vendor)) {
 		return 'Safari';
-	} else if (/Opera Software ASA/.test(navigator.vendor)) {
+	} else if (/Opera Software ASA/.test(navigator.vendor) || /Opera/.test(navigator.appName)) {
 		return 'Opera';
 	} else if (/Microsoft Internet Explorer/.test(navigator.appName)) {
 		return 'Microsoft Internet Explorer';
