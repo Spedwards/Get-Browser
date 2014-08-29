@@ -2,6 +2,8 @@
 
 A Javascript method of obtaining the user browser from 10 different possibilities!
 
+Demo: http://spedwards.github.io/projects/getbrowser
+
 <h2>How it works</h2>
 
 By calling the `getBrowser()` function you can get what browser the individual is using.
