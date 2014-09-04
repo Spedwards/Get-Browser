@@ -21,4 +21,5 @@ The return values are as follows:
 <strong>Maxthon:</strong> "Maxthon"<br />
 <strong>Pale Moon:</strong> "Pale Moon"<br />
 <strong>SeaMonkey:</strong> "SeaMonkey"<br />
-<strong>Arora:</strong> "Arora"
+<strong>Arora:</strong> "Arora"<br />
+<strong>Konqueror:</strong "Konqueror"
