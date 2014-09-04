@@ -1,9 +1,7 @@
 function getBrowser() {
 	if (/Google Inc./.test(navigator.vendor)) {
 		return 'Google Chrome';
-	} else if (/Safari/.test(navigator.userAgent)) {
-		return 'Safari';
-	} else if (/Opera Software ASA/.test(navigator.vendor)) {
+	} else if (/Opera Software ASA/.test(navigator.vendor) || /Opera/.test(navigator.appName)) {
 		return 'Opera';
 	} else if (/Microsoft Internet Explorer/.test(navigator.appName)) {
 		return 'Microsoft Internet Explorer';
@@ -19,6 +17,10 @@ function getBrowser() {
 		return 'SeaMonkey';
 	} else if (/Arora/.test(navigator.userAgent)) {
 		return 'Arora';
+	} else if (/Safari/.test(navigator.userAgent) && !/Opera Software ASA/.test(navigator.vendor)) {
+		return 'Safari';
+	}else if (/Konqueror/.test(navigator.userAgent)) {
+		return 'Konqueror';
 	} else {
 		return 'an unknown browser';
 	}
