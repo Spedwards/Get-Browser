@@ -22,4 +22,4 @@ The return values are as follows:
 <strong>Pale Moon:</strong> "Pale Moon"<br />
 <strong>SeaMonkey:</strong> "SeaMonkey"<br />
 <strong>Arora:</strong> "Arora"<br />
-<strong>Konqueror:</strong "Konqueror"
+<strong>Konqueror:</strong> "Konqueror"
