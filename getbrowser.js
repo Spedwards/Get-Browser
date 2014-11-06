@@ -4,7 +4,7 @@
 */
 
 function getBrowser() {
-	if (/Google Inc./.test(navigator.vendor)) {
+	if (/Google Inc\./.test(navigator.vendor)) {
 		return 'Google Chrome';
 	} else if (/Opera Software ASA/.test(navigator.vendor) || /Opera/.test(navigator.appName)) {
 		return 'Opera';
@@ -14,7 +14,7 @@ function getBrowser() {
 		return 'Mozilla Firefox';
 	} else if (/K-Meleon/.test(navigator.vendor)) {
 		return 'K-Meleon';
-	} else if (/Maxthon Asia Ltd./.test(navigator.vendor)) {
+	} else if (/Maxthon Asia Ltd\./.test(navigator.vendor)) {
 		return 'Maxthon';
 	} else if (/PaleMoon/.test(navigator.userAgent)) {
 		return 'Pale Moon';
